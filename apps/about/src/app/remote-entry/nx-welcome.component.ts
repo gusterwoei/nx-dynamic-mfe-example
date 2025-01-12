@@ -432,7 +432,7 @@ import { CommonModule } from '@angular/common';
         <div id="welcome">
           <h1>
             <span> Hello there, </span>
-            Welcome shop 👋
+            Welcome about 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -769,11 +769,11 @@ import { CommonModule } from '@angular/common';
               Build, test and lint your app
             </summary>
             <pre><span># Build</span>
-nx build
+nx build 
 <span># Test</span>
-nx test
+nx test 
 <span># Lint</span>
-nx lint
+nx lint 
 <span># Run them together!</span>
 nx run-many -t build test lint</pre>
           </details>
@@ -794,7 +794,7 @@ nx run-many -t build test lint</pre>
               </svg>
               View project details
             </summary>
-            <pre>nx show project shop</pre>
+            <pre>nx show project about</pre>
           </details>
 
           <details>
