@@ -13,8 +13,7 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'shop',
-    loadChildren: () =>
-      loadRemoteModule('shop', './Routes').then((m) => m.remoteRoutes),
+    loadChildren: () => loadRemoteModule('shop', './Routes').then((m) => m.remoteRoutes),
     // loadChildren: () => import('shop/Routes').then((m) => m!.remoteRoutes),
   },
   {

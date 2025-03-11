@@ -2,7 +2,13 @@
   "name": "@nx-dynamic-mfe-example/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "nx serve host --devRemotes=\"shop,cart,about\"",
+    "serve:shop": "nx serve host --devRemotes=\"shop\"",
+    "serve:cart": "nx serve host --devRemotes=\"cart\"",
+    "serve:about": "nx serve host --devRemotes=\"about\"",
+    "build": "nx run-many -t build"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~19.0.0",
