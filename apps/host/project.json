@@ -5,6 +5,7 @@
   "prefix": "app",
   "sourceRoot": "apps/host/src",
   "tags": [],
+  "implicitDependencies": ["cart", "shop", "about"],
   "targets": {
     "build": {
       "executor": "@nx/angular:webpack-browser",
