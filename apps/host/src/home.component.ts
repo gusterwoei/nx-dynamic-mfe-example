@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
+  selector: 'app-home',
   imports: [CommonModule],
-  selector: 'app-about-entry',
-  templateUrl: './entry.component.html',
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.css',
 })
-export class RemoteEntryComponent { }
+export class HomeComponent {}

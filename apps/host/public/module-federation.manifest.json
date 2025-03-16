@@ -1,3 +1,5 @@
 {
-  "shop": "https://d33h9arfm6vb7m.cloudfront.net/shop"
+  "shop": "https://d33h9arfm6vb7m.cloudfront.net/shop",
+  "cart": "https://d33h9arfm6vb7m.cloudfront.net/cart",
+  "about": "https://d33h9arfm6vb7m.cloudfront.net/about"
 }
