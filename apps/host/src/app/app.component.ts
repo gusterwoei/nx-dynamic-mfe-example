@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -25,6 +25,5 @@ export class AppComponent {
 
   onMenuSelected(path: string) {
     this.path = path;
-    console.log('path', path);
   }
 }
