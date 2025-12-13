@@ -30,6 +30,8 @@ COPY dist/apps/about /usr/share/nginx/html/about
 COPY dist/apps/cart /usr/share/nginx/html/cart
 COPY dist/apps/shop /usr/share/nginx/html/shop
 
+COPY dist/apps/host/module-federation.manifest.docker.json /usr/share/nginx/html/host/module-federation.manifest.json
+
 # Expose port
 EXPOSE 80
 

@@ -1,5 +1,5 @@
 {
-  "shop": "https://d33h9arfm6vb7m.cloudfront.net/shop",
-  "cart": "https://d33h9arfm6vb7m.cloudfront.net/cart",
-  "about": "https://d33h9arfm6vb7m.cloudfront.net/about"
+  "shop": "http://localhost:4201/shop",
+  "cart": "http://localhost:4202/cart",
+  "about": "http://localhost:4203/about"
 }
