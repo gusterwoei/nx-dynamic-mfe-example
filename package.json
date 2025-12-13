@@ -7,7 +7,7 @@
     "serve:shop": "nx serve host --devRemotes=\"shop\"",
     "serve:cart": "nx serve host --devRemotes=\"cart\"",
     "serve:about": "nx serve host --devRemotes=\"about\"",
-    "build": "nx run-many -t build"
+    "build": "nx run-many -t build --configuration=production"
   },
   "private": true,
   "devDependencies": {
