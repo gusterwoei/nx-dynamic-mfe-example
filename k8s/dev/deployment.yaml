@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mfe-host
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mfe-host
+  template:
+    metadata:
+      labels:
+        app: mfe-host
+    spec:
+      containers:
+        - name: host
+          image: nx-mfe:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi

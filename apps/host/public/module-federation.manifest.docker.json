@@ -1,5 +1,5 @@
 {
-  "shop": "http://localhost:8080/shop",
-  "cart": "http://localhost:8080/cart",
-  "about": "http://localhost:8080/about"
+  "shop": "http://localhost:4201",
+  "cart": "http://localhost:4202",
+  "about": "http://localhost:4203"
 }

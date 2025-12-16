@@ -32,8 +32,5 @@ COPY dist/apps/shop /usr/share/nginx/html/shop
 
 COPY dist/apps/host/module-federation.manifest.docker.json /usr/share/nginx/html/host/module-federation.manifest.json
 
-# Expose port
-EXPOSE 80
-
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
