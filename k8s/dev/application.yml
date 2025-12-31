@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: mfe-host
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/gusterwoei/nx-dynamic-mfe-example
+    targetRevision: master
+    path: k8s/dev   # <-- folder that contains your Service + Deployment + Ingress
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: mfe-demo-dev
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+
